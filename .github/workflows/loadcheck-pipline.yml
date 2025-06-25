@@ -22,7 +22,7 @@ jobs:
               run: npm install
 
             - name: Install K6
-              run: sudo apt install k6
+              run: sudo snap install k6
 
             - name: start app
               run: |
